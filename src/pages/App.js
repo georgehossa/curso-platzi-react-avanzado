@@ -1,7 +1,12 @@
 import React from 'react';
+import { GlobalStyle } from '../styles/GlobalStyles';
+import {ListOfCategories} from '../components/ListOfCategories';
 
 const App = () => (
-  <h1>Petgram</h1>
+  <>
+    <GlobalStyle />
+    <ListOfCategories />
+  </>
 )
 
 export default App;
